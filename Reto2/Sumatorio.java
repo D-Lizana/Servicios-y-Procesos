@@ -1,6 +1,6 @@
 package Reto2;
 
-public class Sumatorio extends Thread{
+public class Sumatorio implements Runnable{
     private int numero;
     private double resultado;
 
@@ -24,7 +24,5 @@ public class Sumatorio extends Thread{
     public double getResultado(){
         return  resultado;
     }
-
-
 
 }
