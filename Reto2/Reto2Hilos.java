@@ -21,7 +21,8 @@ public class Reto2Hilos {
             t1.join();
             t1.join();
 
-            double formula = (s1.getResultado() + s2.getResultado() + s3.getResultado())/8;
+            double suma = s1.getResultado() + s2.getResultado() + s3.getResultado();
+            double formula = suma/8;
 
             System.out.println("El resultado es: "+formula);
 
