@@ -19,7 +19,7 @@ public class Servidor {
                     Socket cliente = servidor.accept();
                     DataOutputStream escribirDatos = new DataOutputStream(cliente.getOutputStream());
                     DataInputStream leerDatos = new DataInputStream(cliente.getInputStream());
-                    ){
+            ){
 
                 String tipoDeCliente= leerDatos.readUTF();
 
